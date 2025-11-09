@@ -1,0 +1,17 @@
+:root{
+  --bg:#fff; --text:#111; --accent:#1f3b57; --subtle:#eaeaea;
+  --max:920px; --radius:8px;
+  --font: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--bg); color:var(--text); font-family:var(--font); line-height:1.6}
+header, footer{border-top:1px solid var(--subtle); border-bottom:1px solid var(--subtle); background:#fafafa}
+nav{max-width:var(--max); margin:0 auto; padding:14px; display:flex; gap:14px; flex-wrap:wrap}
+nav a{text-decoration:none; color:var(--text); padding:6px 10px; border-radius:6px}
+nav a:hover{background:var(--subtle)}
+main{max-width:var(--max); margin:0 auto; padding:24px}
+h1,h2,h3{line-height:1.2}
+.cta{display:inline-block; padding:10px 14px; border-radius:8px; background:var(--accent); color:#fff; text-decoration:none; margin-right:8px}
+.card{border:1px solid var(--subtle); border-radius:var(--radius); padding:16px; margin:14px 0}
+footer small{display:block; max-width:var(--max); margin:0 auto; padding:14px}
+ul.downloads li{margin:6px 0}
