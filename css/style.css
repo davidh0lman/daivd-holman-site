@@ -32,3 +32,9 @@ footer {
   padding: 1rem;
   color: #555;
 }
+.card{border:1px solid #eaeaea; border-radius:12px; padding:16px; margin:16px 0; background:#fff}
+ul.downloads{list-style:none; padding-left:0}
+ul.downloads li{margin:8px 0}
+ul.downloads a{font-weight:600; text-decoration:none}
+ul.downloads a:hover{text-decoration:underline}
+
