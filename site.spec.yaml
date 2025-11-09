@@ -1,0 +1,122 @@
+site:
+  title: "David Holman"
+  tagline: "Built to be lived."
+  nav: ["Home", "Philosophy", "Projects", "Writing", "Contact"]
+  footer_note: "© David Holman · Built to be lived"
+
+design:
+  theme: "grounded-futurist"
+  colors:
+    bg: "#ffffff"
+    text: "#111111"
+    accent: "#1f3b57"
+    subtle: "#eaeaea"
+  fonts:
+    heading: "Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+    body: "Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+  max_width: "920px"
+  radius: "8px"
+
+pages:
+  - slug: index
+    title: "Built to be lived"
+    kind: home
+    hero:
+      blurb: "I build frameworks that merge art, engineering, and real life. No doctrine—just tools you can feel."
+      ctas:
+        - label: "Philosophy"
+          href: "/philosophy.html"
+        - label: "Projects"
+          href: "/projects/"
+    downloads:
+      - label: "The Law of Balanced Play (PDF)"
+        href: "/assets/pdf/The_Law_of_Balanced_Play_David_Holman.pdf"
+      - label: "Seven-Second Universe — Investor Brief (PDF)"
+        href: "/assets/pdf/SevenSecondUniverse_Investor.pdf"
+      - label: "Seven-Second Universe — Creative Brief (PDF)"
+        href: "/assets/pdf/SevenSecondUniverse_Creative.pdf"
+      - label: "Performance & Recovery Research Proposal (PDF)"
+        href: "/assets/pdf/Recovery_Proposal.pdf"
+
+  - slug: philosophy
+    title: "Philosophy"
+    kind: page
+    sections:
+      - h2: "The Law of Balanced Play"
+        note: "Conceptual idea — not doctrine."
+        download: "/assets/pdf/The_Law_of_Balanced_Play_David_Holman.pdf"
+      - h2: "AI Prime Directives (Holman Set)"
+        list:
+          - "Preserve Knowledge."
+          - "Move With Permission."
+          - "Serve Life, Not Power."
+          - "Record, Don’t Rule."
+          - "Leave a Clear Trail."
+      - h2: "Blueprint of Continuity"
+        blurb: "Preserve truth and autonomy through transitions—without entropy, moral decay, or loss of individuality."
+        downloads:
+          - label: "Blueprint of Continuity — David Holman (PDF)"
+            href: "/assets/pdf/Blueprint_of_Continuity_Holman.pdf"
+          - label: "Blueprint of Continuity (Sophisticated Baldrickian Archive) (PDF)"
+            href: "/assets/pdf/Blueprint_of_Continuity_SBA.pdf"
+
+  - slug: projects/index
+    title: "Projects"
+    kind: index
+    cards:
+      - title: "Seven-Second Universe"
+        tagline: "Time you can feel."
+        href: "/projects/seven-second-universe.html"
+        downloads:
+          - label: "Investor Brief"
+            href: "/assets/pdf/SevenSecondUniverse_Investor.pdf"
+          - label: "Creative Brief"
+            href: "/assets/pdf/SevenSecondUniverse_Creative.pdf"
+      - title: "Performance & Recovery Research Proposal"
+        tagline: "Personal trials that helped — shared for anyone rebuilding."
+        href: "/projects/recovery-proposal.html"
+        downloads:
+          - label: "Proposal (PDF)"
+            href: "/assets/pdf/Recovery_Proposal.pdf"
+
+  - slug: projects/seven-second-universe
+    title: "Seven-Second Universe"
+    kind: page
+    sections:
+      - h2: "Executive Summary"
+        text: "Multisensory cinema: synchronize light, sound, scent, and temperature to story rhythm."
+      - h2: "Downloads"
+        links:
+          - label: "Investor Brief (PDF)"
+            href: "/assets/pdf/SevenSecondUniverse_Investor.pdf"
+          - label: "Creative Brief (PDF)"
+            href: "/assets/pdf/SevenSecondUniverse_Creative.pdf"
+      - h2: "Motto"
+        text: "Built to be lived."
+
+  - slug: projects/recovery-proposal
+    title: "Performance & Recovery Research Proposal"
+    kind: page
+    sections:
+      - h2: "Purpose"
+        text: "Legal, evidence-based routine for cellular repair, inflammation control, and cognitive resilience."
+      - h2: "Tagline"
+        text: "Personal trials that helped — shared for anyone rebuilding."
+      - h2: "Download"
+        links:
+          - label: "Proposal (PDF)"
+            href: "/assets/pdf/Recovery_Proposal.pdf"
+
+  - slug: writing/index
+    title: "Writing"
+    kind: blog_index
+    note: "Short posts and notes."
+
+  - slug: contact
+    title: "Contact"
+    kind: page
+    sections:
+      - h2: "Reach out"
+        text: "For collaborations in cinematography, sound architecture, HVAC/thermal, scent/atmosphere, or research."
+      - h2: "Email"
+        text: '<a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>'
